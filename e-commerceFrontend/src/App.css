@@ -1,0 +1,47 @@
+#root {
+  text-align: center;
+}
+
+@keyframes slideBanner {
+  0% { transform: translateX(0); }
+  16.66% { transform: translateX(0); }
+  
+  20% { transform: translateX(-1263px); }
+  36.66% { transform: translateX(-1263px); }
+
+  40% { transform: translateX(-2526px); }
+  56.66% { transform: translateX(-2526px); }
+
+  60% { transform: translateX(-3789px); }
+  76.66% { transform: translateX(-3789px); }
+
+  80% { transform: translateX(-5052px); }
+  96.66% { transform: translateX(-5052px); }
+
+  100% { transform: translateX(-6315px); }
+}
+
+@media (max-width: 400px) {
+  @keyframes slideBanner {
+    0% { transform: translateX(0); }
+    14.28% { transform: translateX(0); }
+
+    16.66% { transform: translateX(-400px); }
+    30.94% { transform: translateX(-400px); }
+
+    33.33% { transform: translateX(-800px); }
+    47.61% { transform: translateX(-800px); }
+
+    50% { transform: translateX(-1200px); }
+    64.28% { transform: translateX(-1200px); }
+
+    66.66% { transform: translateX(-1600px); }
+    80.94% { transform: translateX(-1600px); }
+
+    83.33% { transform: translateX(-2000px); }
+    97.61% { transform: translateX(-2000px); }
+
+    100% { transform: translateX(-2400px); }
+  }
+}
+
